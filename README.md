@@ -4,7 +4,7 @@
 
 1. TCP Socket Communication: The solution utilizes TCP sockets for communication with a server running on localhost. Three separate socket connections are established to ports 4001, 4002, and 4003.
    
-2. The program observes the first data generated at the three TCP ports in the 100ms window. Each value is followed by a newline character. The data is tokenized, and the value just before the last newline character (most recent value) is extracted.
+2. The program observes first the data generated at the three TCP ports in the 100ms window. Each value is followed by a newline character. The data is tokenized, and the value just before the last newline character (most recent value) is extracted.
 
 3. JSON Output: The program prints received data in JSON format. Each JSON object contains a timestamp and three output strings (out1, out2, out3), which represent the latest data received from the server on each port.
    
