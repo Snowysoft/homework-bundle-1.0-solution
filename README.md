@@ -38,6 +38,7 @@ This Python script reads waveform data from a JSON file, calculates the dominant
 | out2   | 0.246           | 5         | Triangle wave   |
 | out3   | 0               | 5         | Rectangular wave|
 
+The frequency of out3 is zero because there is no repeating pattern observed in the waveform
 
 ## Task 2
 ### Solution Overview:
