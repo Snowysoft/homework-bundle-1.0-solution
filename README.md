@@ -59,3 +59,23 @@ To validate the correctness of the solution, observations were made by monitorin
 
 ### Conclusion
 The solution for Task 2 involved decoding the Operation field, determining the encoding of Object and Property fields, and addressing discrepancies in setting values. By monitoring the system's behavior and verifying the observed outputs, confidence was gained in the correctness of the implemented solution.
+
+## Compiling and Running the Code
+
+1. **Compiling the Code:**
+
+   To compile the code, run the following command in your terminal:
+
+   ```
+   make -f make_client2.mk
+   ```
+
+2. **Running the Executable:**
+
+   After compiling, run the compiled executable using the following command:
+
+   ```
+   ./program
+   ```
+
+
