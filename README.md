@@ -45,5 +45,5 @@ The task specified setting the value to 1Hz and 2Hz, but encountered a discrepan
 
 To validate the correctness of the solution, observations were made by monitoring the variation in the out1 terminal for different values of out3. This approach provided insight into the behavior of the system and confirmed the expected results based on the implemented solution.
 
-Conclusion
+###Conclusion
 The solution for Task 2 involved decoding the Operation field, determining the encoding of Object and Property fields, and addressing discrepancies in setting values. By monitoring the system's behavior and verifying the observed outputs, confidence was gained in the correctness of the implemented solution.
