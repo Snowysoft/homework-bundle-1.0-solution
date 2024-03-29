@@ -28,9 +28,16 @@ The program follows these steps:
 
 5. Loop and Sleep: The program repeats the above steps indefinitely, with a 100-millisecond sleep between iterations to control the frequency of data retrieval.
 
-<br> Additional File waveform_analysis.ipynb : <br>
+#### <br> Additional File waveform_analysis.ipynb : <br>
 This Python script reads waveform data from a JSON file, calculates the dominant frequency for each waveform using Fourier analysis, and visualizes the waveforms along with their timestamps using Matplotlib. 
- 
+
+### Conclusion
+| Output | Frequency (Hz) | Amplitude | Shape           |
+|--------|-----------------|-----------|-----------------|
+| out1   | 0.492           | 5         | Sine wave       |
+| out2   | 0.246           | 5         | Triangle wave   |
+| out3   | 0               | 5         | Rectangular wave|
+
 
 ## Task 2
 ### Solution Overview:
